@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  color: #fff;
+}
+
+/* Logo */
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10%;
+}
+
+.header__logo img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Desktop navigation (horizontal) */
+.header__nav {
+  display: flex;
+  gap: 15px;
+  margin-right: 20%;
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+/* Hide menu icon on large screens */
+@media screen and (min-width: 500px) {
+  .header__menuIcon {
+    display: none;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 500px) {
+  .header {
+    justify-content: space-between;
+    position: relative;
+  }
+
+  /* Hide normal nav on mobile */
+  .header__nav {
+    display: none;
+    flex-direction: column; /* vertical layout */
+    background-color: #111;
+    position: absolute;
+    top: 60px; /* below header */
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+  }
+
+  /* Menu icon (hamburger) */
+  .header__menuIcon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  /* When dropdown is open */
+  .header__nav.active {
+    display: flex;
+  }
+
+  .header__link {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .header__link:hover {
+    background-color: #222;
+  }
+}
