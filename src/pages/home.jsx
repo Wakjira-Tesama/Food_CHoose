@@ -1,6 +1,7 @@
 import React from "react";
 import "./../Style/home.css";
 import home from "./../assets/images/home.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -8,7 +9,9 @@ function Home() {
       <div className="home__content">
         <h1>Welcome to Food Choose</h1>
         <p>Your one-stop solution for food recommendations</p>
-        <button className="home__button">Get Started</button>
+        <Link to="/menu">
+          <button className="home__button">Explore Menu</button>
+        </Link>
       </div>
     </div>
   );
