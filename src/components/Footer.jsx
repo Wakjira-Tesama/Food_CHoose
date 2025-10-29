@@ -1,4 +1,5 @@
 import React from "react";
+import "./../Style/footer.css";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import InstagramIcon from "@mui/icons-material/Instagram";
