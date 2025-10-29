@@ -20,6 +20,9 @@ function Header() {
         <Link to="/about" className="header__link">
           About
         </Link>
+        <Link to="/menu" className="header__link">
+          Menu
+        </Link>
         <Link to="/contact" className="header__link">
           Contact Us
         </Link>
@@ -43,6 +46,9 @@ function Header() {
             onClick={() => setMenuOpen(false)}
           >
             Home
+          </Link>
+          <Link to="/menu" className="header__link">
+            Menu
           </Link>
           <Link
             to="/about"
