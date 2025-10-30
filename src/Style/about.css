@@ -1,0 +1,99 @@
+.about-page {
+  left: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0%;
+}
+
+/* Header / Banner Image */
+.about_image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+}
+
+/* About Text Container */
+.about_text {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #444;
+  width: 80%;
+  background-color: #e9e9e9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about_text h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.about-page p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Team Section */
+.about-page .team-member {
+  margin-top: 25px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 80%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-page .team-member h2 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.about-page .team-member p {
+  font-size: 15px;
+  color: #666;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .about_text,
+  .about-page .team-member .about_image {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .about_text h2 {
+    font-size: 22px;
+  }
+
+  .about_image {
+    height: 250px;
+    width: flex;
+  }
+}
+@media (max-width: 480px) {
+  .about_image {
+    height: 200px;
+    width: flex 1;
+  }
+
+  .about_text h2 {
+    font-size: 20px;
+  }
+
+  .about-page .team-member h2 {
+    font-size: 18px;
+  }
+}
