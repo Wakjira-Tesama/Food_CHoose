@@ -6,7 +6,7 @@ import Home from "./pages/home.jsx";
 import Footer from "./components/Footer.jsx";
 import Menu from "./pages/menu.jsx";
 import About from "./pages/about.jsx";
-// import Contact from "./pages/Contact.jsx";
+import Contact from "./pages/contact.jsx";
 function App() {
   return (
     <Router>
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
