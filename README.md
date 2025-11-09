@@ -41,25 +41,25 @@ It provides users with an easy way to browse menus, learn about the service, and
 ## 🖼️ Page Previews
 
 ### 🏠 Home Page  
-![Home Page Screenshot](src/assest/images/homep.png)
+![Home Page Screenshot](src/assets/images/homep.png)
 
 
 ---
 
 ### 📜 Menu Page  
-![Menu Page Screenshot](src/assest//images/menu.png)
+![Menu Page Screenshot](src/assets//images/menu.png)
 
 
 ---
 
 ### ℹ️ About Page  
-![About Page Screenshot](src/assest/images/about.png)
+![About Page Screenshot](src/assets/images/about.png)
 
 
 ---
 
 ### 📞 Contact Page  
-![Contact Page Screenshot](src/assest/images/contact.png)
+![Contact Page Screenshot](src/assets/images/contact.png)
 
 
 ---
